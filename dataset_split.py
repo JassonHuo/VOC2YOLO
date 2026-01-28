@@ -1,5 +1,5 @@
 import os
-from trans_data import get_parent_folder
+from voc2yolo import get_parent_folder
 from random import shuffle
 import shutil
 def split_data(img_folder, label_folder, train_rate=0.7):
